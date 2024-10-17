@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar a {
+    color: white;
+    font-weight: 500;
+}
+
+.nav-item i {
+    font-size: 1.2rem;
+}
+
+.nav-item a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.me-2 {
+    margin-right: 0.5rem;
+}
+
+.nav-link {
+    color: #007bff;
+    font-weight: normal;
+    display: inline-block;
+    padding: 0.25rem 0;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+/* General styling */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header h1, .header h3 {
+    font-family: "Lato", sans-serif;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Form containers */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-container h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.form-container .form-control {
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.form-container .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* New balance styling */
+.balance-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.balance-section h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3498db;
+}
+
+.balance-amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2ecc71;
+    margin-top: 10px;
+}
+
+.balance-section .balance-info {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .balance-section h4 {
+        font-size: 1.25rem;
+    }
+
+    .balance-amount {
+        font-size: 2rem;
+    }
+}
+
+/* Custom footer styling */
+#foot {
+    position: absolute;
+    top: 130%;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+    color: #7f8c8d;
+}
+
+/* Other elements */
+#col1 {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-family: "Lato", sans-serif;
+    font-size: larger;
+}
+
+#col2 {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+
+#col3 {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+
+#col4 {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    font-family: "Lato", sans-serif;
+    font-size: larger;
+}
+
+.text-justify {
+    text-align: justify;
+}
